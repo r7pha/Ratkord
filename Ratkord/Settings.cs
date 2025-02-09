@@ -9,9 +9,8 @@ namespace RATK
 {
     internal class Settings
     {
-        public static string BotToken = "MTMxNjg1MjEyMzQ3MTk3NDQ5Mg.Gqtn26.ViLcf-IB1UrBwGv0nbvJA_TvpBFeNo_rzvNgR0";
-        public static ulong ServerId = 1315868730529419284;
-        public static string RoleName = "Troll";
+        public static string BotToken = "";
+        public static ulong ServerId = 0;
 
         public static bool AutoCriticalProcess = false;
         public static bool AutoTryBypassUAC = false;

