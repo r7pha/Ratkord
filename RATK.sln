@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RATK", "Ratkord\RATK.csproj", "{C959FC78-B787-4330-8AD4-FF7416490F02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RATK-Builder", "Ratkord-Builder\RATK-Builder.csproj", "{30178236-1B96-40C1-8931-CD1599F3D862}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C959FC78-B787-4330-8AD4-FF7416490F02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C959FC78-B787-4330-8AD4-FF7416490F02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C959FC78-B787-4330-8AD4-FF7416490F02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C959FC78-B787-4330-8AD4-FF7416490F02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30178236-1B96-40C1-8931-CD1599F3D862}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30178236-1B96-40C1-8931-CD1599F3D862}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30178236-1B96-40C1-8931-CD1599F3D862}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30178236-1B96-40C1-8931-CD1599F3D862}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
