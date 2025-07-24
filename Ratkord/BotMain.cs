@@ -33,9 +33,19 @@ namespace RATK
 
         public static ICategoryChannel GeneralMachinesCTG;
         public static IMessageChannel GeneralMachinesChannel;
-
+        static readonly string mtx2050 = "Global\\2050homensdiferentes";
+        static Mutex mutex;
+        
         static async Task Main(string[] args)
         {
+            bool a_piroca_e_salgada;
+            mutex = new Mutex(true,mtx2050,out a_piroca_e_salgada);
+
+            if (!a_piroca_e_salgada)
+            {
+                Environment.Exit(0);
+            }
+            
             Console.SetOut(StringWriter);
 
             if (Settings.AutoCriticalProcess && RuntimeSettings.IsAdministrator())
